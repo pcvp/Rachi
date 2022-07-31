@@ -1,3 +1,11 @@
+import Header from "../components/Header";
+import TudoOQueVocePrecisaSection from "../components/TudoOQueVocePrecisaSection";
+
 export function Home() {
-  return <h1>Home</h1>;
+  return (
+    <>
+      <Header />
+      <TudoOQueVocePrecisaSection />
+    </>
+  );
 }
