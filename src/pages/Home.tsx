@@ -2,14 +2,14 @@ import BaixeNossoAppSection from "../sections/BaixeNossoAppSection";
 import ComoFuncionaSection from "../sections/ComoFuncionaSection";
 import ContatoSection from "../sections/ContatoSection";
 import Footer from "../sections/Footer";
-import HeaderSection from "../sections/HeaderSection";
+import Header from "../sections/Header";
 import NossosPlanosSection from "../sections/NossosPlanosSection";
 import TudoOQueVocePrecisaSection from "../sections/TudoOQueVocePrecisaSection";
 
 export function Home() {
   return (
     <>
-      <HeaderSection />
+      <Header />
       <TudoOQueVocePrecisaSection />
       <ComoFuncionaSection />
       <BaixeNossoAppSection />

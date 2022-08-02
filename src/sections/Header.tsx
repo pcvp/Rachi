@@ -1,7 +1,7 @@
 import MenuHambuger from "../assets/icons/MenuHambuger";
 import Logo from "../assets/Logo";
 
-export default function HeaderSection() {
+export default function Header() {
   return (
     <>
       <header className="w-100 p-6  flex justify-between">
