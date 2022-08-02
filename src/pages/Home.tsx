@@ -1,15 +1,17 @@
-import BaixeNossoAppSection from "../components/BaixeNossoAppSection";
-import ComoFuncionaSection from "../components/ComoFuncionaSection";
-import Header from "../components/Header";
-import TudoOQueVocePrecisaSection from "../components/TudoOQueVocePrecisaSection";
+import BaixeNossoAppSection from "../sections/BaixeNossoAppSection";
+import ComoFuncionaSection from "../sections/ComoFuncionaSection";
+import HeaderSection from "../sections/HeaderSection";
+import NossosPlanosSection from "../sections/NossosPlanosSection";
+import TudoOQueVocePrecisaSection from "../sections/TudoOQueVocePrecisaSection";
 
 export function Home() {
   return (
     <>
-      <Header />
+      <HeaderSection />
       <TudoOQueVocePrecisaSection />
       <ComoFuncionaSection />
       <BaixeNossoAppSection />
+      <NossosPlanosSection />
     </>
   );
 }

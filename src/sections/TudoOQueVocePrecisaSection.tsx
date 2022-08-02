@@ -1,5 +1,5 @@
 import NotebookArvore from "../assets/images/NotebookArvore";
-import { Button } from "./Button";
+import { Button } from "../components/Button";
 
 export default function TudoOQueVocePrecisaSection() {
   return (

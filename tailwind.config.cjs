@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         inter: ["Inter", "sans-serif"],
         sora: ["Sora", "sans-serif"],
+        sora: ["Roboto", "sans-serif"],
       },
       colors: {
         blue: {
