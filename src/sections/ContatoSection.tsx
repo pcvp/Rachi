@@ -1,4 +1,4 @@
-import NotebookArvore from "../assets/images/NotebookArvore";
+import NotebookArvore from "../assets/images/WorkingAnywhere";
 import { Button } from "../components/Button";
 
 export default function ContatoSection() {

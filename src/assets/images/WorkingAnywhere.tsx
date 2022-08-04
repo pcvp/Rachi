@@ -1,6 +1,4 @@
-import React from "react";
-
-function NotebookArvore() {
+function WorkingAnywhere() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -555,4 +553,4 @@ function NotebookArvore() {
   );
 }
 
-export default NotebookArvore;
+export default WorkingAnywhere;
