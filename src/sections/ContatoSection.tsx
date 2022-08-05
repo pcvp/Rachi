@@ -3,7 +3,10 @@ import { Button } from "../components/Button";
 
 export default function ContatoSection() {
   return (
-    <section className="bg-contato bg-cover text-2xl font-sora font-semibold ">
+    <section
+      id="Contato"
+      className="bg-contato bg-cover text-2xl font-sora font-semibold "
+    >
       <div className="bg-contatoOpacity  text-white pt-6 pb-0 pl-6 pr-6">
         <div className="flex flex-col items-center md:max-w-[510px] md:mx-auto ">
           <span className="font-semibold text-2xl">Contato</span>

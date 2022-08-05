@@ -6,7 +6,10 @@ import { Card } from "../components/Card";
 
 export default function NossosPlanosSection() {
   return (
-    <section className="bg-white font-sora  p-6 w-full flex flex-col text-center">
+    <section
+      id="Planos"
+      className="bg-white font-sora  p-6 w-full flex flex-col text-center"
+    >
       <span className="font-semibold text-2xl md:text-4xl">Nossos Planos</span>
       <span className="text-sm font-inter mt-1 text-gray-200 max-w-[570px] mx-auto">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lacinia

@@ -4,7 +4,10 @@ import NewNotifications from "../assets/images/NewNotifications";
 
 export default function BaixeNossoAppSection() {
   return (
-    <section className="bg-blue-200 font-sora p-6 flex flex-col text-center md:text-left">
+    <section
+      id="App"
+      className="bg-blue-200 font-sora p-6 flex flex-col text-center md:text-left"
+    >
       <div className="md:container md:mx-auto">
         <div className="md:flex md:justify-evenly md:items-center md:mx-auto">
           <div className="flex flex-col md:w-1/2">

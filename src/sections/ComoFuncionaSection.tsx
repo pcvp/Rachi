@@ -4,7 +4,10 @@ import CrieConexoes from "../assets/images/CrieConexoes";
 
 export default function ComoFuncionaSection() {
   return (
-    <section className="bg-white font-sora  p-6 w-full flex flex-col text-center md:py-14">
+    <section
+      id="Funcionalidades"
+      className="bg-white font-sora  p-6 w-full flex flex-col text-center md:py-14"
+    >
       <span className="font-semibold text-2xl md:text-4xl  md:mb-16 ">
         Como Funciona
       </span>
