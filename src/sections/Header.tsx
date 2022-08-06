@@ -12,7 +12,14 @@ export default function Header() {
 
   return (
     <>
-      <header className="w-100 p-6 flex flex-col md:flex-row">
+      <header
+        className={classNames(
+          "w-100 p-6 flex flex-col md:flex-row md:py-6 md:px-0",
+          {
+            "container mx-auto": !exibirMenu,
+          }
+        )}
+      >
         <div
           className={classNames(
             "flex justify-between md:container md:mx-auto",
